@@ -7,11 +7,14 @@
 //============================================================================
 
 #include <iostream>
+#include <random>
 using namespace std;
 
 int getRandomNumber()
 {
-	int randomNumber = 10;
+	std::default_random_engine generator;
+	std::uniform_int_distribution<int> distribution(1,100);
+	int randomNumber = distribution(generator);
 
 	return randomNumber;
 }
@@ -41,8 +44,6 @@ int main() {
 			break;
 		}
 	}
-
-
 
 	return 0;
 }
