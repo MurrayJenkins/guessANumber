@@ -7,16 +7,18 @@
 //============================================================================
 
 #include <iostream>
-#include <random>
+#include <cstdlib>
+#include <ctime>
+
 using namespace std;
 
 int getRandomNumber()
 {
-	std::default_random_engine generator;
-	std::uniform_int_distribution<int> distribution(1,100);
-	int randomNumber = distribution(generator);
+	srand(static_cast<unsigned int>(time(0)));
+	int randomNumber = rand();
+	int range = (randomNumber % 100) + 1;
 
-	return randomNumber;
+	return range;
 }
 
 int main() {
