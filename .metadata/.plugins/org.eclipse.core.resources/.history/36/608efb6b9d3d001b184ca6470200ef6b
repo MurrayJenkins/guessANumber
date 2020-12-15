@@ -1,0 +1,25 @@
+//============================================================================
+// Name        : main.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description :
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int getRandomNumber()
+{
+	int randomNumber;
+
+	return randomNumber;
+}
+
+int main() {
+
+
+
+
+	return 0;
+}

@@ -1,0 +1,68 @@
+17:46:33 **** Rebuild of configuration Debug for project guessANumber ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o guessANumber.exe "src\\main.o" 
+Info: Nothing to build for guessANumber
+17:49:44 **** Incremental Build of configuration Debug for project guessANumber ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o guessANumber.exe "src\\main.o" 
+17:50:40 **** Incremental Build of configuration Debug for project guessANumber ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o guessANumber.exe "src\\main.o" 
+Info: Nothing to build for guessANumber
+17:56:36 **** Incremental Build of configuration Debug for project guessANumber ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o guessANumber.exe "src\\main.o" 
+Info: Nothing to build for guessANumber
+Info: Nothing to build for guessANumber
+17:58:26 **** Incremental Build of configuration Debug for project guessANumber ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o guessANumber.exe "src\\main.o" 
+18:01:41 **** Incremental Build of configuration Debug for project guessANumber ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp: In function 'int getRandomNumber()':
+..\src\main.cpp:17:6: warning: unused variable 'dice_roll' [-Wunused-variable]
+   17 |  int dice_roll = distribution(generator);
+      |      ^~~~~~~~~
+g++ -o guessANumber.exe "src\\main.o" 
+18:02:16 **** Incremental Build of configuration Debug for project guessANumber ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o guessANumber.exe "src\\main.o" 
+Info: Nothing to build for guessANumber
+Info: Nothing to build for guessANumber
+Info: Nothing to build for guessANumber
+Info: Nothing to build for guessANumber
+18:12:32 **** Incremental Build of configuration Debug for project guessANumber ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o guessANumber.exe "src\\main.o" 
+Info: Nothing to build for guessANumber
+18:14:36 **** Incremental Build of configuration Debug for project guessANumber ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o guessANumber.exe "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file guessANumber.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:14:49 **** Incremental Build of configuration Debug for project guessANumber ****
+Info: Internal Builder is used for build
+g++ -o guessANumber.exe "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file guessANumber.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:15:26 **** Incremental Build of configuration Debug for project guessANumber ****
+Info: Internal Builder is used for build
+g++ -o guessANumber.exe "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file guessANumber.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:16:19 **** Incremental Build of configuration Debug for project guessANumber ****
+Info: Internal Builder is used for build
+g++ -o guessANumber.exe "src\\main.o" 
+Info: Nothing to build for guessANumber
+Info: Nothing to build for guessANumber
+Info: Nothing to build for guessANumber
+Info: Nothing to build for guessANumber

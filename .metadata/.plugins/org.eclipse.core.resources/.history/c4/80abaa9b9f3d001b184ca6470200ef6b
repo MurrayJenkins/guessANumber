@@ -1,0 +1,50 @@
+//============================================================================
+// Name        : main.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description :
+//============================================================================
+
+#include <iostream>
+#include <random>
+using namespace std;
+
+int getRandomNumber()
+{
+	std::default_random_engine generator;
+	std::uniform_int_distribution<int> distribution(1,6);
+	int dice_roll = distribution(generator);
+	int randomNumber = rand() % 100 + 1;
+
+	return randomNumber;
+}
+
+int main() {
+
+	int rand = getRandomNumber();
+	int input;
+
+	while (input != rand)
+	{
+		cout << "Enter a number between 1 and 100." << endl;
+		cin >> input;
+
+
+		if (input < rand)
+		{
+			cout << "It's a higher number." << endl;
+		}
+		else if (input > rand)
+		{
+			cout << "It's a lower number." << endl;
+		}
+		else
+		{
+			cout << "You did it!" << endl;
+			break;
+		}
+	}
+
+	return 0;
+}

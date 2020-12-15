@@ -1,0 +1,18 @@
+/*
+ * guessANumber.hpp
+ *
+ *  Created on: Dec 13, 2020
+ *      Author: Matthew
+ */
+
+#ifndef GUESSANUMBER_HPP_
+#define GUESSANUMBER_HPP_
+
+class guessANumber {
+	private:
+
+	public:
+		guessANumber();
+};
+
+#endif /* GUESSANUMBER_HPP_ */

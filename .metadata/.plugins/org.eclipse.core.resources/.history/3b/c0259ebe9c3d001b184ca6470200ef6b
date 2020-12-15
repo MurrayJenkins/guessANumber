@@ -1,0 +1,14 @@
+/*
+ * guessANumber.cpp
+ *
+ *  Created on: Dec 13, 2020
+ *      Author: Matthew
+ */
+
+#include "guessANumber.hpp"
+
+guessANumber::guessANumber() {
+
+
+}
+
